@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project Progresja -->
+<!-- Saved: 2011-12-31, 21:37:28 -->
+<!-- Copyright (C) 2011 koznik, it@noszkurwa.com -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>fuck yeah!</Description>
+  <Version>0.1</Version>
+  <Author>koznik</Author>
+  <Email>it@noszkurwa.com</Email>
+  <Sources>
+    <Source>Connections.py</Source>
+    <Source>Funkcje_przygotowujace_dane.py</Source>
+    <Source>Generator_tabeli_iloczynowej.py</Source>
+    <Source>GuiFunctions.py</Source>
+    <Source>HistogramItem.py</Source>
+    <Source>Obstawiacz.py</Source>
+    <Source>Team.py</Source>
+    <Source>Wyluskiwacz_wynikow.py</Source>
+    <Source>Wyluskiwacz_z_tabeli.py</Source>
+    <Source>Zespol.py</Source>
+    <Source>__init__.py</Source>
+    <Source></Source>
+    <Source>progresja18.py</Source>
+    <Source>progresja21.py</Source>
+    <Source>progresja22.py</Source>
+    <Source>progresja23.py</Source>
+  </Sources>
+  <Forms>
+    <Form>progresja.ui</Form>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>

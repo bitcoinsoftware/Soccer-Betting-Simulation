@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>877</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1</y>
+      <width>890</width>
+      <height>560</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>2</y>
+        <width>539</width>
+        <height>49</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>138</x>
+         <y>2</y>
+         <width>63</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Time period</string>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="dateTimeEdit">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>21</y>
+         <width>124</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>189</x>
+         <y>22</y>
+         <width>124</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="date">
+        <date>
+         <year>2012</year>
+         <month>1</month>
+         <day>1</day>
+        </date>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>23</y>
+         <width>46</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>From :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>168</x>
+         <y>25</y>
+         <width>28</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>To :</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>316</x>
+         <y>3</y>
+         <width>220</width>
+         <height>43</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QRadioButton" name="radioButton">
+        <property name="geometry">
+         <rect>
+          <x>4</x>
+          <y>20</y>
+          <width>76</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Full season</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_2">
+        <property name="geometry">
+         <rect>
+          <x>83</x>
+          <y>20</y>
+          <width>72</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Full row</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="geometry">
+         <rect>
+          <x>145</x>
+          <y>20</y>
+          <width>74</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Partial row</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>84</x>
+          <y>2</y>
+          <width>46</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Options :</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>543</x>
+        <y>1</y>
+        <width>331</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>37</x>
+         <y>-2</y>
+         <width>46</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Country :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>128</x>
+         <y>-2</y>
+         <width>46</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>League :</string>
+       </property>
+      </widget>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>10</y>
+         <width>104</width>
+         <height>136</height>
+        </rect>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>102</width>
+          <height>134</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QScrollArea" name="scrollArea_2">
+       <property name="geometry">
+        <rect>
+         <x>111</x>
+         <y>10</y>
+         <width>71</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>69</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>39</y>
+         <width>31</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+      <widget class="QScrollArea" name="scrollArea_3">
+       <property name="geometry">
+        <rect>
+         <x>184</x>
+         <y>10</y>
+         <width>140</width>
+         <height>136</height>
+        </rect>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>138</width>
+          <height>134</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>228</x>
+         <y>-1</y>
+         <width>46</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Portfolio :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>62</y>
+         <width>73</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Remove</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>141</x>
+         <y>39</y>
+         <width>42</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Add all</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>109</x>
+         <y>85</y>
+         <width>74</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>109</x>
+         <y>108</y>
+         <width>74</width>
+         <height>38</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Count</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>56</y>
+        <width>540</width>
+        <height>94</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_7">
+       <property name="geometry">
+        <rect>
+         <x>248</x>
+         <y>2</y>
+         <width>287</width>
+         <height>89</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QFrame" name="frame_5">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>23</y>
+          <width>152</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QRadioButton" name="radioButton_4">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>4</y>
+           <width>68</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Forward</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_5">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>3</y>
+           <width>59</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Reverse</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="frame_6">
+        <property name="geometry">
+         <rect>
+          <x>4</x>
+          <y>59</y>
+          <width>151</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QRadioButton" name="radioButton_6">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>2</y>
+           <width>71</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Fibonacci </string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_7">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>4</y>
+           <width>82</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Straight</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>38</x>
+          <y>5</y>
+          <width>89</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Martingale type :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>5</y>
+          <width>116</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Reinvest Part of profit :</string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+        <property name="geometry">
+         <rect>
+          <x>203</x>
+          <y>23</y>
+          <width>62</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.100000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>203</x>
+          <y>45</y>
+          <width>62</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Coefficient :</string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+        <property name="geometry">
+         <rect>
+          <x>203</x>
+          <y>62</y>
+          <width>62</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <double>99999.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>2.000000000000000</double>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_8">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>2</y>
+         <width>238</width>
+         <height>52</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>6</y>
+          <width>131</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Random betting prices :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>92</x>
+          <y>27</y>
+          <width>25</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Min :</string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+        <property name="geometry">
+         <rect>
+          <x>117</x>
+          <y>24</y>
+          <width>47</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <double>99999999.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>3.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>163</x>
+          <y>28</y>
+          <width>29</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Max :</string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>23</y>
+          <width>46</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <double>99999999.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>3.450000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox">
+        <property name="geometry">
+         <rect>
+          <x>6</x>
+          <y>21</y>
+          <width>62</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <double>99999.990000000005239</double>
+        </property>
+        <property name="value">
+         <double>1.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>4</x>
+          <y>4</y>
+          <width>77</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Starting value :</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_9">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>56</y>
+         <width>238</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>7</x>
+          <y>9</y>
+          <width>62</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Loss series :</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinBox">
+        <property name="geometry">
+         <rect>
+          <x>122</x>
+          <y>9</y>
+          <width>41</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>999</number>
+        </property>
+        <property name="value">
+         <number>2</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinBox_2">
+        <property name="geometry">
+         <rect>
+          <x>191</x>
+          <y>8</y>
+          <width>46</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="maximum">
+         <number>999999</number>
+        </property>
+        <property name="value">
+         <number>8</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>163</x>
+          <y>11</y>
+          <width>29</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Max :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>93</x>
+          <y>11</y>
+          <width>24</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Min :</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_10">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>153</y>
+        <width>872</width>
+        <height>379</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>4</y>
+         <width>46</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Results :</string>
+       </property>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>3</x>
+         <y>6</y>
+         <width>867</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="tabPosition">
+        <enum>QTabWidget::North</enum>
+       </property>
+       <property name="tabShape">
+        <enum>QTabWidget::Triangular</enum>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <property name="documentMode">
+        <bool>false</bool>
+       </property>
+       <property name="tabsClosable">
+        <bool>true</bool>
+       </property>
+       <property name="movable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Cash Flow</string>
+        </attribute>
+        <widget class="QwtPlot" name="qwtPlot_2">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>4</y>
+           <width>858</width>
+           <height>313</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="geometry">
+          <rect>
+           <x>782</x>
+           <y>318</y>
+           <width>78</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Save to file</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="plainTextEdit">
+         <property name="geometry">
+          <rect>
+           <x>63</x>
+           <y>320</y>
+           <width>715</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>325</y>
+           <width>60</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Short info :</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_4">
+        <attribute name="title">
+         <string>Starting value</string>
+        </attribute>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>4</x>
+           <y>324</y>
+           <width>60</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Short info :</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="plainTextEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>66</x>
+           <y>320</y>
+           <width>713</width>
+           <height>26</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QwtPlot" name="qwtPlot_3">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>1</y>
+           <width>855</width>
+           <height>316</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="geometry">
+          <rect>
+           <x>783</x>
+           <y>318</y>
+           <width>77</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Save to file</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>877</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QwtPlot</class>
+   <extends>QFrame</extends>
+   <header>qwt_plot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
